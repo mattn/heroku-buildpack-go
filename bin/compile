@@ -26,7 +26,7 @@ then
     echo >&2 " !     A .godir is required. For instructions: $build"
     ls -la $build >&2
     echo >&2 " !     http://mmcgrana.github.com/2012/09/getting-started-with-go-on-heroku"
-    exit 1
+    #exit 1
 fi
 
 if test -e $build/bin && ! test -d $build/bin
