@@ -27,8 +27,8 @@ then
     ls -la $build >&2
     echo >&2 " !     http://mmcgrana.github.com/2012/09/getting-started-with-go-on-heroku"
     #exit 1
-    $build=/app
 fi
+build=/app
 
 if test -e $build/bin && ! test -d $build/bin
 then
